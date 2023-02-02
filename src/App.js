@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar.jsx'
-
+import Footer from './components/footer.jsx'
+import Content from './components/content.jsx'
 function App() {
 
 
@@ -10,6 +11,8 @@ function App() {
     <>
     
       <Navbar/>
+      <Content/>
+      <Footer/>
     
     
     
